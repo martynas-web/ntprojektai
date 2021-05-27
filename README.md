@@ -1,3 +1,24 @@
+# Welcome to ntprojektai custom wordpress theme
+## For use
+
+* [WordPress](https://wordpress.org/) >= 4.7
+* [Custom Post Type plugin](https://lt.wordpress.org/plugins/custom-post-type-ui/)
+* [Advanced Custom Fields plugin](https://lt.wordpress.org/plugins/advanced-custom-fields/)
+
+At first download all required plugins. Than import contacts.json to custom post type plugin, import acf-export-2021-05-27.json to custom fields plugin, than lastly import wordpress xml files via wordpress importer.
+
+## For development
+
+* Clone project, run npm install, change config.json dev and proxy urls.
+
+Make sure all dependencies have been installed before moving on:
+
+* [WordPress](https://wordpress.org/) >= 4.7
+* [PHP](https://secure.php.net/manual/en/install.php) >= 7.1.3 (with [`php-mbstring`](https://secure.php.net/manual/en/book.mbstring.php) enabled)
+* [Composer](https://getcomposer.org/download/)
+* [Node.js](http://nodejs.org/) >= 8.0.0
+* [Yarn](https://yarnpkg.com/en/docs/install)
+
 # [Sage](https://roots.io/sage/)
 [![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
