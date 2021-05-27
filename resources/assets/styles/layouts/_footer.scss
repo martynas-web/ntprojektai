@@ -1,0 +1,36 @@
+.footer-widget {
+  background-color: $black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .footer-info {
+    h3 {
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: white;
+      margin-bottom: 10px;
+    }
+  }
+
+  .social-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    .social-buttons {
+      .social-icon {
+        color: white;
+        font-size: 30px;
+        margin-left: 10px;
+
+        &:hover {
+          opacity: 0.9;
+          transition: 0.3s ease;
+        }
+      }
+    }
+  }
+}

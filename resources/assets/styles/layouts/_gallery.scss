@@ -1,0 +1,45 @@
+.gallery-heading {
+  .gallery-wrapper {
+    box-shadow: 0 10px 50px #44477c26;
+    border-radius: 7px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .gallery-widget {
+      .gallery-search {
+        .form-search {
+          border: none;
+          border-bottom: 1px solid #6f88b145;
+          border-radius: 0;
+          padding-left: 0;
+          font-size: 20px;
+          color: #70737c;
+          background-color: transparent;
+
+          &:focus-visible {
+            outline: none;
+          }
+        }
+      }
+
+      .gallery-photo {
+        img {
+          object-fit: cover;
+        }
+
+        p {
+          color: white;
+          font-family: "Quicksand", sans-serif;
+          font-size: 26px;
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

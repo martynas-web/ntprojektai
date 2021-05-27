@@ -1,0 +1,36 @@
+.form-button {
+  border-radius: 30px;
+  background-color: #d9dbe2;
+  padding: 15px 40px;
+  font-size: 20px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::after {
+    content: url("/wp-content/themes/sage/resources/assets/images/arrow-pointing-to-right-white.svg");
+    display: inline-block;
+    transform: translate(5px, 0);
+    padding-left: 10px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:hover::after {
+    transform: translate(10px, 0);
+    transition: $transition;
+  }
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.form-button.active {
+  background-color: $black;
+}

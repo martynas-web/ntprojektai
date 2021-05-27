@@ -1,0 +1,22 @@
+.main-header {
+  box-shadow: 5px 4px 15px 1px rgba(0, 0, 0, 0.14);
+
+  .main-navigation {
+    background-color: white;
+
+    .header-elements {
+      ul {
+        li {
+          margin-left: 20px;
+
+          a {
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}

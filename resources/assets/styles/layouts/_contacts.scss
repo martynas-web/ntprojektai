@@ -1,0 +1,114 @@
+.contacts-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: $baby-blue;
+    transform: skew(-10deg);
+    transform-origin: top;
+  }
+
+  .contacts-widget {
+    .contacts-persons {
+      .contacts-info {
+        margin-bottom: 40px;
+
+        .contacts-photo {
+          img {
+            object-fit: cover;
+          }
+
+          @include sm() {
+            display: flex;
+            justify-content: center;
+          }
+
+          @include md() {
+            display: flex;
+            justify-content: center;
+          }
+        }
+
+        .contacts-details {
+          @include sm() {
+            text-align: center;
+          }
+
+          @include md() {
+            text-align: center;
+          }
+
+          .contacts-name {
+            font-size: 26px;
+            font-family: "Quicksand", sans-serif;
+            color: $dark-blue;
+            font-weight: 500;
+            margin-bottom: 5px;
+          }
+
+          .contacts-mail,
+          .contacts-phone {
+            margin-bottom: 5px;
+
+            a {
+              color: $grey;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+
+    .contacts-form {
+      .contacts-form-heading {
+        color: $dark-blue;
+        padding-bottom: 40px;
+      }
+
+      .validation-form {
+        .contacts-form-field {
+          input {
+            border: none;
+            border-bottom: 1px solid #6f88b145;
+            border-radius: 0;
+            padding-left: 0;
+            font-size: 20px;
+            color: #70737c;
+            background-color: transparent;
+
+            &:focus {
+              box-shadow: none;
+              border-bottom: 1px solid $light-blue;
+              color: $black;
+            }
+          }
+        }
+
+        .contacts-form-check {
+          label {
+            .form-check-input {
+              width: 28px;
+              height: 28px;
+              outline: 1px solid $light-blue;
+            }
+
+            p {
+              font-size: 18px;
+              color: #70737c;
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

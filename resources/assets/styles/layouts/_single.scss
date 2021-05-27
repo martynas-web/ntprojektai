@@ -1,0 +1,25 @@
+.single-page-container {
+  height: 200px;
+  margin-top: 60px;
+  position: relative;
+  display: block;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .single-page-content {
+    .single-page-row {
+      .single-page-heading {
+        p {
+          font-family: "Quicksand", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 110%;
+          letter-spacing: -0.01em;
+          color: white;
+        }
+      }
+    }
+  }
+}

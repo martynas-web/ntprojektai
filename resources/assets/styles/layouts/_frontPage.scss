@@ -1,0 +1,56 @@
+.top-wrapper {
+  background: transparent linear-gradient(219deg, #e8f1ff 0%, #fafcff 100%) 0% 0% no-repeat padding-box;
+  margin-bottom: 60px;
+
+  .top-widget {
+    .figure {
+      background-color: white;
+      position: absolute;
+      bottom: 20px;
+      right: 0;
+      width: 800px;
+      height: 700px;
+      z-index: 1;
+      border-radius: 344px 0 0 0;
+
+      @include sm() {
+        width: 250px;
+        height: 400px;
+      }
+
+      @include md() {
+        width: 250px;
+        height: 400px;
+      }
+    }
+
+    .top-heading {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      color: $black;
+      z-index: 2;
+    }
+
+    .top-news {
+      z-index: 2;
+      margin-bottom: -60px;
+
+      .news-card {
+        border: none;
+        border-radius: 0 125px 20px 20px;
+        height: 600px;
+        width: 350px;
+
+        .news-image {
+          border-radius: 0 125px 0 0;
+          height: 350px;
+          object-fit: cover;
+        }
+
+        .news-body {
+          padding: 25px 40px;
+        }
+      }
+    }
+  }
+}

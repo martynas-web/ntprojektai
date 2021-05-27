@@ -1,0 +1,18 @@
+.lSAction > a {
+  top: 50%;
+  background-image: url(/wp-content/themes/sage/resources/assets/images/news-arrow.svg) !important;
+  width: 60px !important;
+  height: 60px !important;
+  background-repeat: no-repeat;
+}
+
+.lSAction > .lSPrev {
+  background-position: 0 0;
+  transform: rotate(180deg);
+  left: 10px;
+}
+
+.lSAction > .lSNext {
+  background-position: 0 0 !important;
+  right: 10px;
+}
